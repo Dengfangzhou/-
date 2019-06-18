@@ -1,0 +1,42 @@
+.getCode {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  color: #006699;
+  transform: translateY(-50%);
+  font-size: 14px;
+}
+.btn {
+  background-color: #006699 !important;
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  color: #fff !important;
+  background: #006699;
+}
+.login {
+  display: block;
+  color: #006699;
+  font-size: 14px;
+  text-align: right;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+.btn-login {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  background: #006699;
+}
+.register {
+  display: block;
+  color: #006699;
+  font-size: 14px;
+  text-align: right;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+#login-btn {
+  background-color: #006699;
+  color: #fff;
+}

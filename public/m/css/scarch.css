@@ -1,0 +1,89 @@
+html,
+body,
+div,
+a,
+img,
+ul,
+li,
+span,
+header,
+nav,
+footer,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+.lt-header {
+  background-color: #006699;
+}
+.lt-header h1 {
+  color: #fff;
+}
+.lt-header a {
+  color: #fff;
+}
+.lt-footer {
+  background-color: #006699;
+}
+.lt-footer .mui-tab-item {
+  color: #fff;
+}
+.lt-footer .mui-tab-item.mui-active {
+  color: darkorange;
+}
+.container {
+  padding: 10px;
+  background-color: #fff;
+}
+.container .search {
+  widows: 100%;
+  height: 30px;
+  border: 1px solid #006699;
+  position: relative;
+}
+.container .search :first-child {
+  height: 28px;
+  line-height: 28px;
+  border: none;
+  margin-bottom: 0;
+  padding: 0 70px 0 10px;
+  font-size: 14px;
+}
+.container .search :last-child {
+  width: 60px;
+  height: 28px;
+  border: none;
+  background-color: #006699;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  border-radius: 0;
+}
+.container .history {
+  margin-top: 20px;
+  color: #8f8f94;
+  margin-bottom: 20px;
+}
+.container .history :first-child {
+  font-size: 14px;
+  float: left;
+}
+.container .history :last-child {
+  font-size: 14px;
+  float: right;
+  line-height: normal;
+}
+.container .history .mui-icon-trash:before {
+  margin-right: 5px;
+}

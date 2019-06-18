@@ -1,0 +1,66 @@
+.box {
+  position: absolute;
+  bottom: 50px;
+}
+.box .mui-scroll {
+  padding-bottom: 20px;
+}
+.box .title {
+  padding: 10px;
+  font-size: 16px;
+}
+.box .pirce {
+  font-size: 14px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+.box .pirce span:first-of-type {
+  font-size: 24px;
+  color: #ea543d;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.box .pirce span:last-of-type {
+  text-decoration: line-through;
+  color: #ccc;
+}
+.box .size {
+  padding: 10px;
+}
+.box .size span {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  border: 1px solid #ccc;
+  line-height: 28px;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.box .size .active {
+  background-color: #fa672d;
+  color: #fff;
+}
+.box .number {
+  font-size: 14px;
+}
+.box .buy {
+  padding: 10px;
+}
+.box .buy a {
+  float: left;
+  display: inline-block;
+  width: 50%;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+.box .buy a:first-of-type {
+  background-color: #fa672d;
+}
+.box .buy a:last-of-type {
+  background-color: #991020;
+}

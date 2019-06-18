@@ -1,0 +1,144 @@
+html,
+body,
+div,
+a,
+img,
+ul,
+li,
+span,
+header,
+nav,
+footer,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+.lt-header {
+  background-color: #006699;
+}
+.lt-header h1 {
+  color: #fff;
+}
+.lt-header a {
+  color: #fff;
+}
+.lt-footer {
+  background-color: #006699;
+}
+.lt-footer .mui-tab-item {
+  color: #fff;
+}
+.lt-footer .mui-tab-item.mui-active {
+  color: darkorange;
+}
+.mui-content {
+  background-color: #fff;
+}
+.lt-banner {
+  margin-top: 44px;
+}
+.nav-link {
+  padding: 10px;
+}
+.nav-link li {
+  float: left;
+  width: 33.33%;
+}
+.nav-link li a {
+  width: 100%;
+  display: block;
+}
+.nav-link li a img {
+  width: 100%;
+  display: block;
+}
+/*品牌专区 */
+.brang {
+  padding: 0 10px;
+}
+.brang > img {
+  width: 100%;
+  display: block;
+}
+.brang ul {
+  overflow: hidden;
+}
+.brang ul li {
+  float: left;
+  width: 25%;
+}
+.brang ul li a {
+  display: block;
+  width: 100%;
+}
+.brang ul li a img {
+  width: 100%;
+}
+/* 运动生活专区start */
+.product {
+  padding: 0 10px;
+}
+.product > img {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+}
+.product .woman {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+}
+.product .man {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+}
+.product .product-button {
+  background: #006699;
+  color: #FFF;
+  margin: 0 auto;
+  border: none;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+.product > ul {
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+.product > ul li {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.product > ul li a {
+  display: block;
+  padding: 0 5px;
+  box-shadow: 0 0 5px #ccc;
+  overflow: hidden;
+  text-align: center;
+}
+.product > ul li a img {
+  width: 100%;
+}
+.product > ul li a p {
+  font-size: 14px;
+  text-align: center;
+  padding: 0 6px;
+  height: 38px;
+  line-height: 18px;
+  overflow: hidden;
+}
+.product > ul li a span:first-of-type {
+  font-size: 12px;
+  color: darkorange;
+}
+.product > ul li a span:last-of-type {
+  font-size: 12px;
+  text-decoration: line-through;
+  color: #ccc;
+}
